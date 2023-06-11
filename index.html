@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>A.wear</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,500;1,800&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <section id="home" class="header">
+        <nav>
+            <a href="index.php"><img src="Images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#shop">SHOP</a></li>
+                    <li><a href="#donate">DONATE</a></li>
+                    <li><button class="btnLogin-popup"> <a href="login.html">Login</a></li>
+                </ul>
+            </div>   
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+        <h1 class="transition">A·Wear</h1>
+        <p class="aa">WE ARE AWARE</p>
+        <a href="" class="hero-btn">Visit Us To Know More</a>
+    </section>
+<!------------ABOUT------------>
+
+<section>
+    <div id="about" class="about">
+            <h1>About CoralWear</h1>
+            <div class="image-wrapper">
+                <img class="image" src="Images/colorazione1.png" alt="Image 1">
+                <img class="image" src="Images/colorazione2.png" alt="Image 2">
+            </div>
+            <p>Queste magliette proprio come i coralli schiariscono grazie all’esposizione al sole, e grazie al tag posizionato nella manica destra potrai accumulare punti che ti permetteranno di ricevere direttamente a casa tua una maglietta di un altro colore.</p>
+            <p>Integer luctus consequat sem vel elementum. Proin ullamcorper nibh vitae eleifend tempus. In at aliquet ex. Donec mattis convallis risus, sit amet volutpat nisl lobortis eget. Aliquam blandit massa at nisl consectetur, nec bibendum massa pretium. Sed sed finibus nisl, in faucibus tellus. Phasellus sagittis eu turpis id fringilla.</p>
+            <a class="btn" href="#">Compra Adesso</a>
+    </div>
+</section>
+
+<!------------SHOP------------->
+    <section id="shop" class="shop">
+        <h1>Our first LIMITED EDITION </h1>
+        <p>CoralWear</p>
+        
+        <div class="row">
+            <div class="shop-col">
+                <img src="Images/blue.png">
+                <h3>Corals</h3>
+                <p>$ 99.99</p>
+                <a href="" class="btn">Buy Now</a>
+            </div>
+            <div class="shop-col">
+                <img src="Images/yellow.png">
+                <h3>Corals</h3>
+                <p>$ 99.99</p>
+                <a href="" class="btn">Buy Now</a>
+            </div>
+            <div class="shop-col">
+                <img src="Images/purple.png">
+                <h3>Corals</h3>
+                <p>$ 99.99</p>
+                <a href="" class="btn">Buy Now</a>
+            </div>
+        </div>
+    </section>
+
+
+<!------------DONATE------------>
+<section id="donate" class="donate">
+    <h1>Donate</h1>
+    <p>Help us to save the WORLD</p>
+    <div class="row">
+
+        <div class="donate-col">
+            <img src="Images/coralli.png">
+            <div class="layer">
+                <h3>Ambienti marini</h3>
+            </div>
+            </div>
+
+            <div class="donate-col">
+                <img src="Images/foreste.png">
+                <div class="layer">
+                    <h3>Foreste</h3>
+                </div>
+                </div>
+
+            <div class="donate-col">
+                <img src="Images/ghiacciai.png">
+                <div class="layer">
+                    <h3>Ghiacciai</h3>
+                </div>
+                </div>           
+    </div>
+    <a href="" class="donate-btn">Donate Now</a>  
+</section>
+
+
+<!------------Contacs------------>
+
+<section class="icons">
+    <h2>Follow us on our social media</h2>
+    <div class="contacts">
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+        <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+    </div>
+</section>
+
+<!------Javascript for Toggle Menu------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
