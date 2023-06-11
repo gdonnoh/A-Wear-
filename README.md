@@ -1,2 +1,2 @@
-# A-Wear.github.io
+# A-Wear
 Sito Awear
