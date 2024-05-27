@@ -273,7 +273,7 @@ h3{
 
 .shop-col:hover{
     box-shadow: 0 0 20px 15px rgba(0,0,0,0.2);
-    z-index=40;
+    z-index: 2000;
 }
 
 @media(max-width: 700px){
