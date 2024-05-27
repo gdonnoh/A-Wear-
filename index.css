@@ -273,6 +273,9 @@ h3{
 
 .shop-col:hover{
     box-shadow: 0 0 20px 15px rgba(0,0,0,0.2);
+}
+
+.shop-col:hover{
     z-index: 2000;
 }
 
